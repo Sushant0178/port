@@ -8,172 +8,18 @@
     <link rel="stylesheet" href="{% static 'styles.css' %}">
     <link rel="icon" href="{% static 'profile.jpg' %}" type="image/jpeg">
     <style>
-        /* Global Styles */
-        body {
-            margin: 0;
-            font-family: Segoe UI, Arial, sans-serif;
-            background: url('https://img.freepik.com/free-vector/abstract-portfolio-background_23-2148828382.jpg') no-repeat center center fixed;
-            background-size: cover;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1, h2, h3 {
-            color: #fff;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        button {
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .linkedin, .github {
-            background-color: #0077b5; /* LinkedIn Blue */
-            color: white;
-            font-size: 16px;
-            margin: 5px;
-        }
-
-        .linkedin:hover, .github:hover {
-            background-color: #005582; /* Darker blue */
-        }
-
-        .medishare-button {
-            background-color: #4CAF50; /* Green background */
-            color: white; /* White text */
-            padding: 10px 20px; /* Add some padding */
-            border: none; /* Remove default border */
-            border-radius: 5px; /* Round corners */
-            font-size: 16px; /* Set font size */
-            cursor: pointer; /* Pointer cursor on hover */
-            transition: background-color 0.3s ease; /* Smooth transition for background color */
-        }
-
-        .medishare-button:hover {
-            background-color: #45a049; /* Darker green when hovering */
-        }
-
-        /* Header Styles */
-        header {
-            text-align: center;
-            color: white;
-            padding: 50px 0;
-        }
-
-        .profile-img {
-            max-width: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-
-        header h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-
-        header h3 {
-            font-size: 1.5em;
-        }
-
-        /* Section Styles */
-        section {
-            padding: 40px 0;
-            color: white;
-        }
-
-        section h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-
-        section ul li {
-            font-size: 1.1em;
-            margin: 5px 0;
-        }
-
-        section ul li a {
-            color: white;
-            text-decoration: none;
-        }
-
-        /* Media Queries */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2em;
-            }
-
-            header h3 {
-                font-size: 1.2em;
-            }
-
-            .container {
-                width: 100%;
-                padding: 10px;
-            }
-
-            section h2 {
-                font-size: 1.5em;
-            }
-
-            section ul li {
-                font-size: 1em;
-            }
-
-            .medishare-button {
-                width: 100%;
-                font-size: 1.2em;
-            }
-
-            .profile-img {
-                max-width: 120px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            header h1 {
-                font-size: 1.8em;
-            }
-
-            header h3 {
-                font-size: 1em;
-            }
-
-            section h2 {
-                font-size: 1.3em;
-            }
-
-            section ul li {
-                font-size: 0.9em;
-            }
-
-            .medishare-button {
-                font-size: 1.1em;
-            }
-        }
+        
     </style>
 </head>
-<body>
+<body style="background: url('https://img.freepik.com/free-vector/abstract-portfolio-background_23-2148828382.jpg') no-repeat center center fixed; background-size: cover; margin: 0; font-family: Segoe UI, Arial, sans-serif;">
 
     <header>
         <div class="container">
             <img src="{% static 'image.png' %}" alt="Sushant Kokate" class="profile-img">
-            <h1>Sushant Kokate</h1>
+            <h1>Sushant kokate</h1>
             <h3>Python Developer</h3>
         </div>
     </header>
-
     <section class="contact-info">
         <div class="container">
             <h2>Contact Information</h2>
@@ -182,10 +28,11 @@
                 <li>Phone: 9763280178</li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/sushant-kokate-1a5a40285/"><button class="linkedin">Sushant Kokate</button></a></li>
                 <li>GitHub: <a href="https://github.com/sushant0178"><button class="github">Sushant Kokate</button></a></li>
+                
+            
             </ul>
         </div>
     </section>
-
     <section class="skills">
         <div class="container">
             <h2>Skills</h2>
@@ -201,7 +48,6 @@
             </ul>
         </div>
     </section>
-
     <section class="experience">
         <div class="container">
             <h2>Experience</h2>
@@ -211,7 +57,6 @@
                 <li>Led student initiatives, organized events, and built teams for projects.</li>
                 <li>Enhanced collaboration within the club and led university projects.</li>
             </ul>
-
             <h3>Director - Infosit Club (Departmental Club)</h3>
             <p>May 2022 - May 2023</p>
             <ul>
@@ -220,26 +65,39 @@
             </ul>
         </div>
     </section>
-
     <section class="projects">
         <div class="container">
             <h2>Projects</h2>
             <h3>Text-to-Speech Converter</h3>
             <p><strong>Technology:</strong> Python (Pyttsx3)</p>
             <p>Developed a Python application to convert text to speech, enhancing accessibility for text-based content.</p>
-
             <h3>Chatbot for PC Automation</h3>
             <p><strong>Technology:</strong> Python, Speech Recognition, NLP, pyttsx3, Wikipedia API, Web Automation</p>
             <p>Created a chatbot to automate PC operations, improving efficiency and user experience.</p>
-
-            <h3>Unused Medicines Donation Website</h3>
+            <h3>unused medicines donation website</h3>
             <p><strong>Technology:</strong> Python, Django, SQLite, HTML, CSS, and JavaScript.</p>
             <p>The Medicine Project is a web-based platform developed using Python and Django, with SQLite as the database. It allows users to donate unused medicines, with a focus on helping those in need. The front-end is built with HTML, CSS, and JavaScript, providing a user-friendly interface for donations and managing medicine information.</p>
             <a href="https://medisharenow.vercel.app/">
                 <button class="medishare-button">MediShare</button>
+
             </a>
+            <style>
+                .medishare-button {
+                    background-color: #4CAF50; /* Green background */
+                    color: white; /* White text */
+                    padding: 10px 20px; /* Add some padding */
+                    border: none; /* Remove default border */
+                    border-radius: 5px; /* Round corners */
+                    font-size: 16px; /* Set font size */
+                    cursor: pointer; /* Pointer cursor on hover */
+                    transition: background-color 0.3s ease; /* Smooth transition for background color */
+                }
+                
+                .medishare-button:hover {
+                    background-color: #45a049; /* Darker green when hovering */
+                }
+            </style>
         </div>
     </section>
-
 </body>
 </html>
