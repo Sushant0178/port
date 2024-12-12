@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushant Kokate - Portfolio</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="icon" href="{% static 'profile.jpg' %}" type="image/jpeg">
+</head>
+<body style="background: url('https://img.freepik.com/free-vector/abstract-portfolio-background_23-2148828382.jpg') no-repeat center center fixed; background-size: cover; margin: 0; font-family: Segoe UI, Arial, sans-serif;">
+
+    <header>
+        <div class="container">
+            <img src="{% static 'image.png' %}" alt="Sushant Kokate" class="profile-img">
+            <h1>Sushant Kokate</h1>
+            <h3>Junior Python Developer</h3>
+        </div>
+    </header>
+    <section class="contact-info">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: <a href="mailto:sushantkokate@gmail.com">sushantkokate@gmail.com</a></li>
+                <li>Phone: 9763280178</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/sushant-kokate-7a4b4b1b3/">Sushant Kokate</a></li>
+                
+                <li>GitHub: <a href="https://github.com/sushant0178"><button>sushant kokate</button></a><img src="" alt="github logo"class =icon></li>
+            
+            </ul>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, JavaScript</li>
+                <li>Web Frameworks: Django, Flask</li>
+                <li>Front-End: HTML, CSS, JavaScript, React.js, Bootstrap</li>
+                <li>Back-End: REST APIs, Django REST Framework, Flask-RESTful</li>
+                <li>Database: PostgreSQL, MySQL, MongoDB</li>
+                <li>Libraries/Tools: Speech Recognition, NLP, pyttsx3, Wikipedia API, pyjokes, smtplib, keyboard, Web Scraping, Command Prompt Automation, Celery, Redis</li>
+                <li>Deployment & Cloud: Docker, AWS, Heroku, Nginx</li>
+                <li>Other: Git, Web Browser Automation, Email Automation, System Operations (Shutdown, Restart), Audio File Management, Pytest</li>
+            </ul>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <h3>CEO - Infosit Club (Departmental Club)</h3>
+            <p>May 2021 - May 2022</p>
+            <ul>
+                <li>Led student initiatives, organized events, and built teams for projects.</li>
+                <li>Enhanced collaboration within the club and led university projects.</li>
+            </ul>
+            <h3>Director - Infosit Club (Departmental Club)</h3>
+            <p>May 2022 - May 2023</p>
+            <ul>
+                <li>Managed club activities, coordinated events, and improved team dynamics.</li>
+                <li>Designed and implemented projects to increase student engagement.</li>
+            </ul>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <h3>Text-to-Speech Converter</h3>
+            <p><strong>Technology:</strong> Python (Pyttsx3)</p>
+            <p>Developed a Python application to convert text to speech, enhancing accessibility for text-based content.</p>
+            <h3>Chatbot for PC Automation</h3>
+            <p><strong>Technology:</strong> Python, Speech Recognition, NLP, pyttsx3, Wikipedia API, Web Automation</p>
+            <p>Created a chatbot to automate PC operations, improving efficiency and user experience.</p>
+        </div>
+    </section>
+</body>
+</html>
