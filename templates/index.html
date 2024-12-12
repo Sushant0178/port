@@ -13,13 +13,6 @@
 </head>
 <body style="background: url('https://img.freepik.com/free-vector/abstract-portfolio-background_23-2148828382.jpg') no-repeat center center fixed; background-size: cover; margin: 0; font-family: Segoe UI, Arial, sans-serif;">
 
-    <header>
-        <div class="container">
-            <img src="{% static 'image.png' %}" alt="Sushant Kokate" class="profile-img">
-            <h1>Sushant kokate</h1>
-            <h3>Python Developer</h3>
-        </div>
-    </header>
     <section class="contact-info">
         <div class="container">
             <h2>Contact Information</h2>
@@ -31,6 +24,11 @@
                 
             
             </ul>
+        </div>
+        <div class="container">
+            {% comment %} <img src="{% static 'image.png' %} " size = "500" alt="Sushant Kokate" class="profile-img"> {% endcomment %}
+            <h1>Sushant kokate</h1>
+            <h3>Python Developer</h3>
         </div>
     </section>
     <section class="skills">
