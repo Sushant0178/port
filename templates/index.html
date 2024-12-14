@@ -4,30 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href={% static "style.css" %}>
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Sushant Portfolio</title>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <nav>
-            <div class="left"><h1><strong>sushant portfolio</strong></h1></div>
+            <div class="left">
+                <h1><strong>Sushant Portfolio</strong></h1>
+            </div>
             <div class="right">
                 <ul>
-                    <li>home</li>
-                    <li>projects</li>
-                    <li>about</li>
-                    <li>contact me </li>
+                    <li><button>home</button></li>
+                    <li><button>projects</button></li>
+                    <li><button>About</button></li>
+                    <li><button>contact me </button></li>
                 </ul>
             </div>
-
         </nav>
     </header>
+
+    <!-- Feedback Section -->
+
+
+    <!-- Profile Image Section -->
+    <div class="image-container">
+        {% comment %} <img src="{% static 'transparnt.png' %}" class="profile_image" alt=""> {% endcomment %}
+        <img src={% static "transparnt.png" %} class = "profile_image"alt="ok">
+    </div>    
+    <br>
+<footer>
     <div class="contact">
-        <strong>feedback :</strong>
-        <input type="write a feedback">
+        <strong>Feedback:</strong>
+        <input type="text" placeholder="Write your feedback here...">
     </div>
-    <div class="profile">
-        <img src="static/image.png" alt="sushant profile pic" >
-    </div>
+    <br>
+</footer>
 </body>
 </html>
