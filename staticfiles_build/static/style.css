@@ -1,4 +1,151 @@
-body{
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
+
 }
+
+body {
+    background-color: rgb(18 15 59 / 48%);
+    color: rgb(4, 3, 3);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18 15 59 / 48%);
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+
+}
+main hr {
+    border: 0;
+    background: rgb(18 15 59 / 48%);
+    height: 1.2px;
+    margin: 40px 84px;
+    position: relative;
+    top: -95px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+
+    color:rgba(29, 26, 83, 0.48);
+    font-size: 1.2rem;
+}
+
+.left{
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+.left a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    font-style:inherit;
+
+}
+.frist{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px;
+}
+
+.frist > div {
+    width: 37% ;
+    /* background-color: red; */
+     
+}
+
+.leftsection{
+    width: 50%;
+    font-size: 3rem;
+    /* margin: 70px 0;  */
+    justify-content: space-around;
+    align-items: center;
+    font-style: italic;
+    margin: auto;
+
+
+}
+
+.rightsection img{
+    width: 80%;
+    margin: 50px 0;
+}
+
+
+
+
+
+.purple{
+    color: rgb(18 15 59 / 48%);
+}
+
+#element{
+    color: rgb(18 15 59 / 48%);
+}
+
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    position: relative;
+    top: -89px;
+}
+
+.second h1{
+    font-size:2rem;
+
+}
+
+.text-gray{
+    color: rgba(14, 12, 47, 0.48);
+}
+
+.second .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px;
+    display: flex;
+}
+
+.second .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top{
+    position: relative;
+    top: -45px;
+    left: -28px;
+    margin: auto;
+    width: 46px;
+}
+
+.vertical-title{
+    position: relative;
+    top: -40px;
+    left: 71px;
+}
+
+
 
