@@ -6,7 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sushant Portfolio</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-            
+     <header>
+        <nav>
+
+            <div class="left"><a href="/"><strong>SUSHANT'S PORTFOLIO</strong></a></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">home</a></li>
+                    <li><a href="/">services</a></li>
+                    <li><a href="/">projects</a></li>
+                    <li><a href="/">about</a></li>
+                    <li><a href="/">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+     </header>
+     <main>
+        <section class = "frist">
+            <div class="leftsection" style="font-style: italic;" italic;="">
+                hii my name is <span class="purple">sushant</span> and
+                {% comment %} <div> i am a web developer</div> {% endcomment %}
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+
+                <img src={% static "transparnt.png" %} alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="second">
+            <span class="text-gray">what i have done so far</span>
+            <h1>Work experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    {% comment %} <img src={% static "dev.png" %} alt="" class="image-top"> {% endcomment %}
+                    {% comment %} <div class="vertical-title">html, css,javascrip</div> {% endcomment %}
+                </div>
+
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+
+
+            </div>
+
+        </section>
+     </main>
+     
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['<i> i am web developer ', 'and data analyst.'],
+          typeSpeed: 50,
+        });
+      </script>
+    </body>
 </html>
+
