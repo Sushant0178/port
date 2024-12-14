@@ -1,0 +1,16 @@
+body{
+    background-color: rebeccapurple;
+}
+
+header{
+    background-color: beige;
+}
+
+.profile{
+    background: transparent;
+    /* background-color: black; */
+    color: black;
+    top: 20px;
+    
+
+}

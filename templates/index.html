@@ -4,98 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sushant Kokate - Portfolio</title>
-    <link rel="stylesheet" href="{% static 'styles.css' %}">
-    <link rel="icon" href="{% static 'profile.jpg' %}" type="image/jpeg">
-    <style>
-        
-    </style>
+    <link rel="stylesheet" href={% static "style.css" %}>
+    <title>Document</title>
 </head>
-<body style="background: url('https://img.freepik.com/free-vector/abstract-portfolio-background_23-2148828382.jpg') no-repeat center center fixed; background-size: cover; margin: 0; font-family: Segoe UI, Arial, sans-serif;">
+<body>
+    <header>
+        <nav>
+            <div class="left"><h1><strong>sushant portfolio</strong></h1></div>
+            <div class="right">
+                <ul>
+                    <li>home</li>
+                    <li>projects</li>
+                    <li>about</li>
+                    <li>contact me </li>
+                </ul>
+            </div>
 
-    <section class="contact-info">
-        <div class="container">
-            <h2>Contact Information</h2>
-            <ul>
-                <li>Email: <a href="mailto:sushantkokate@gmail.com">sushantkokate@gmail.com</a></li>
-                <li>Phone: 9763280178</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/sushant-kokate-1a5a40285/"><button class="linkedin">Sushant Kokate</button></a></li>
-                <li>GitHub: <a href="https://github.com/sushant0178"><button class="github">Sushant Kokate</button></a></li>
-                
-            
-            </ul>
-        </div>
-        <div class="container">
-            {% comment %} <img src="{% static 'image.png' %} " size = "500" alt="Sushant Kokate" class="profile-img"> {% endcomment %}
-            <h1>Sushant kokate</h1>
-            <h3>Python Developer</h3>
-        </div>
-    </section>
-    <section class="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: Python, JavaScript</li>
-                <li>Web Frameworks: Django, Flask</li>
-                <li>Front-End: HTML, CSS, JavaScript, React.js, Bootstrap</li>
-                <li>Back-End: REST APIs, Django REST Framework, Flask-RESTful</li>
-                <li>Database: PostgreSQL, MySQL, MongoDB</li>
-                <li>Libraries/Tools: Speech Recognition, NLP, pyttsx3, Wikipedia API, pyjokes, smtplib, keyboard, Web Scraping, Command Prompt Automation, Celery, Redis</li>
-                <li>Deployment & Cloud: Docker, AWS, Heroku, Nginx</li>
-                <li>Other: Git, Web Browser Automation, Email Automation, System Operations (Shutdown, Restart), Audio File Management, Pytest</li>
-            </ul>
-        </div>
-    </section>
-    <section class="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <h3>CEO - Infosit Club (Departmental Club)</h3>
-            <p>May 2021 - May 2022</p>
-            <ul>
-                <li>Led student initiatives, organized events, and built teams for projects.</li>
-                <li>Enhanced collaboration within the club and led university projects.</li>
-            </ul>
-            <h3>Director - Infosit Club (Departmental Club)</h3>
-            <p>May 2022 - May 2023</p>
-            <ul>
-                <li>Managed club activities, coordinated events, and improved team dynamics.</li>
-                <li>Designed and implemented projects to increase student engagement.</li>
-            </ul>
-        </div>
-    </section>
-    <section class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <h3>Text-to-Speech Converter</h3>
-            <p><strong>Technology:</strong> Python (Pyttsx3)</p>
-            <p>Developed a Python application to convert text to speech, enhancing accessibility for text-based content.</p>
-            <h3>Chatbot for PC Automation</h3>
-            <p><strong>Technology:</strong> Python, Speech Recognition, NLP, pyttsx3, Wikipedia API, Web Automation</p>
-            <p>Created a chatbot to automate PC operations, improving efficiency and user experience.</p>
-            <h3>unused medicines donation website</h3>
-            <p><strong>Technology:</strong> Python, Django, SQLite, HTML, CSS, and JavaScript.</p>
-            <p>The Medicine Project is a web-based platform developed using Python and Django, with SQLite as the database. It allows users to donate unused medicines, with a focus on helping those in need. The front-end is built with HTML, CSS, and JavaScript, providing a user-friendly interface for donations and managing medicine information.</p>
-            <a href="https://medisharenow.vercel.app/">
-                <button class="medishare-button">MediShare</button>
-
-            </a>
-            <style>
-                .medishare-button {
-                    background-color: #4CAF50; /* Green background */
-                    color: white; /* White text */
-                    padding: 10px 20px; /* Add some padding */
-                    border: none; /* Remove default border */
-                    border-radius: 5px; /* Round corners */
-                    font-size: 16px; /* Set font size */
-                    cursor: pointer; /* Pointer cursor on hover */
-                    transition: background-color 0.3s ease; /* Smooth transition for background color */
-                }
-                
-                .medishare-button:hover {
-                    background-color: #45a049; /* Darker green when hovering */
-                }
-            </style>
-        </div>
-    </section>
+        </nav>
+    </header>
+    <div class="contact">
+        <strong>feedback :</strong>
+        <input type="write a feedback">
+    </div>
+    <div class="profile">
+        <img src="static/image.png" alt="sushant profile pic" >
+    </div>
 </body>
 </html>
