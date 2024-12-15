@@ -1,286 +1,321 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
 }
 
 body {
-    background-color: rgb(18 15 59 / 48%);
-    color: rgb(4, 3, 3);
+  background-color: rgb(18 15 59 / 48%);
+  color: rgb(4, 3, 3);
 
 }
 
-nav{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-    background-color: rgb(18 15 59 / 48%);
-    left: 0.16px;
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18 15 59 / 48%);
+  left: 0.16px;
 }
 
 
-nav ul{
-    display:flex;
-    justify-content: center;
+nav ul {
+  display: flex;
+  justify-content: center;
 
 }
+
 main hr {
-    border: 0;
-    background: rgb(18 15 59 / 48%);
-    height: 1.2px;
-    margin: 40px 84px;
-    position: relative;
-    top: -95px;
+  border: 0;
+  background: rgb(18 15 59 / 48%);
+  height: 1.2px;
+  margin: 40px 84px;
+  position: relative;
+  top: -95px;
 }
-nav ul li{
-    list-style: none;
-    margin: 0 23px;
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
 
 
 }
+
 nav ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 nav ul li a:hover {
 
-    color:rgba(29, 26, 83, 0.48);
-    font-size: 1.2rem;
+  color: rgba(29, 26, 83, 0.48);
+  font-size: 1.2rem;
 }
 
-.left{
-    text-decoration: none;
-    font-size: 2rem;
-
-}
-.left a{
-    text-decoration: none;
-    font-size: 2rem;
-    color: black;
-    font-style:inherit;
-
-}
-.frist{
-    display: flex;
-    justify-content: space-around;
-    margin: 23px;
-}
-
-.frist > div {
-    width: 37% ;
-    /* background-color: red; */
-     
-}
-
-.leftsection{
-    width: 50%;
-    font-size: 3rem;
-    /* margin: 70px 0;  */
-    justify-content: space-around;
-    align-items: center;
-    font-style: italic;
-    margin: auto;
-
+.left {
+  text-decoration: none;
+  font-size: 2rem;
 
 }
 
-.rightsection img{
-    width: 80%;
-    margin: 50px 0;
+.left a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  font-style: inherit;
+
+}
+
+.frist {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px;
+}
+
+.frist>div {
+  width: 37%;
+  /* background-color: red; */
+
+}
+
+.leftsection {
+  width: 50%;
+  font-size: 3rem;
+  /* margin: 70px 0;  */
+  justify-content: space-around;
+  align-items: center;
+  font-style: italic;
+  margin: auto;
+
+
+}
+
+.rightsection img {
+  width: 80%;
+  margin: 50px 0;
+  filter: drop-shadow(16px 10px 23px rgb(26 16 21));
+  /* Natural shadow effect */
+
 }
 
 
 
 
 
-.purple{
-    color: rgb(18 15 59 / 48%);
+.purple {
+  color: rgb(18 15 59 / 48%);
 }
 
-#element{
-    color: rgb(18 15 59 / 48%);
+#element {
+  color: rgb(18 15 59 / 48%);
 }
 
-.second{
-    max-width: 80vw;
-    margin: auto;
-    height: 80vh;
+.second {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+  position: relative;
+  top: -89px;
+}
+
+.second h1 {
+  font-size: 2rem;
+  position: relative;
+  top: -27px;
+  left: -105px;
+  box-shadow: 3px 5px 23px rgb(26 16 21);
+  width: 245px;
+}
+
+.text-gray {
+  color: rgba(14, 12, 47, 0.48);
+  position: relative;
+  top: -15px;}
+
+
+
+
+.image-top {
+  position: relative;
+  top: -45px;
+  left: -28px;
+  margin: auto;
+  width: 46px;
+}
+
+.vertical-title {
+  position: relative;
+  top: -40px;
+  left: 71px;
+}
+
+.project_1 {
+  position: relative;
+  top: auto;
+  left: 9px;
+  font-size: 1.5rem;
+}
+
+.click_here {
+  background-color: rgb(18 15 59 / 48%);
+  color: #050404;
+  padding: 8px 24px;
+  font-size: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 16px 10px 23px rgb(26 16 21);
+  position: relative;
+  top: 2px;
+}
+
+.click_here a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.project_1 p {
+  text-align: justify;
+
+}
+
+.project_1 li {
+  position: relative;
+  top: auto;
+  left: 8px;
+  font-size: 1.3rem;
+}
+
+.feature {
+  position: relative;
+  left: 44px;
+  margin: -12px;
+  background-color: rgba(53, 49, 113, 0.48);
+  color: #050404;
+  padding: 27px 24px;
+  font-size: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: inherit;
+  width: 66.5%;
+  box-shadow: 16px 10px 23px rgb(26 16 21);
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-size: 14px;
+    background-color: rgb(18 15 59 / 48%);
+    color: rgb(12, 12, 20);
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .menu {
+    display: none;
+    /* Hide the menu for mobile */
+  }
+
+  .rightsection img {
+    width: 273%;
+    margin: -40px 0;
+    left: -190px;
     position: relative;
-    top: -89px;
-}
+    top: 90px;
+  }
 
-.second h1{
-    font-size:2rem;
+  .leftsection {
+    position: relative;
+    /* top: 168px; */
+    height: 565px;
+    font-size: 27px;
+    left: -44px;
+    margin: 37px;
+    width: 8px;
+    position: relative;
+    top: -3px;
+  }
 
-}
-
-.text-gray{
+  .text-gray {
     color: rgba(14, 12, 47, 0.48);
-}
-
-
-
-
-.image-top{
     position: relative;
-    top: -45px;
-    left: -28px;
-    margin: auto;
-    width: 46px;
-}
+    top: -17px;
+  }
 
-.vertical-title{
+  .second h1 {
+    font-size: 2rem;
     position: relative;
-    top: -40px;
-    left: 71px;
+    top: -15px;
+    left: -18px;
 }
 
-.project_1{
+  main hr {
+    border: 0;
+    background: rgb(18 15 59 / 48%);
+    height: -3.8px;
+    margin: 41px 84px;
     position: relative;
-    top: 21px;
-    left: 88px;
-    font-size: 1.5rem;
-}
+    top: -228px;
+    display: none;
 
-.click_here{
-    background-color: rgb(18 15 59 / 48%);
-    color: #050404;
-    padding: 8px 24px;
-    font-size: 15px;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
+  }
 
-.click_here a{
+  nav ul {
+    position: relative;
+    top: 10px;
+    margin: -18px;
+    left: -169px;
+    display: none;
+  }
+
+  .left {
+    position: relative;
+    left: -93px;
+  }
+
+  nav {
+    position: relative;
+    width: 600px;
+  }
+
+  .project_1 {
+    position: relative;
+    left: 39px;
+  }
+
+  .click_here {
+    position: relative;
+    top: -13px;
+
+  }
+
+  .click_here a {
     text-decoration: none;
     color: black;
-    
+
   }
 
-  .project_1 p{
-    text-align: justify;
-    
-  }
-
-  
-  .project_1 li{
-    
+  .feature {
     position: relative;
-    top: 21px;
-    left: -21px;
-    font-size: 1.5rem;
+    left: 3px;
+    margin: -20px;
+    display: none;
   }
 
-  .feature{
+  button.click_here {
     position: relative;
-    left: 44px;
-    background-color: rgb(18 15 59 / 48%);
-    margin: -12px;
-    background-color: rgba(53, 49, 113, 0.48);
-    color: #050404;
-    padding: 27px 24px;
-    font-size: 15px;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: inherit;
+    top: -26px;
   }
-
-
-
-@media only screen and (max-width: 480px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    body {
-        font-size: 14px;
-        background-color: rgb(18 15 59 / 48%);
-        color: rgb(12, 12, 20);
-      }
-    
-      .header {
-        text-align: center;
-      }
-    
-      .menu {
-        display: none; /* Hide the menu for mobile */
-      }
-      .rightsection img{
-        width: 273%;
-        margin: -40px 0;
-        left: -190px;
-        position: relative;
-        top: 90px;
-      }
-      .leftsection{
-        position: relative;
-        /* top: 168px; */
-        height: 565px;
-        font-size: 27px;
-        left: -44px;
-        margin: 37px;
-        width: 8px;
-        position: relative;
-        top: -3px;
-      }
-
-      main hr{
-        border: 0;
-        background: rgb(18 15 59 / 48%);
-        height: -3.8px;
-        margin: 41px 84px;
-        position: relative;
-        top: -228px;
-        display: none;
-
-      }
-
-      nav ul {
-        position: relative;
-        top: 10px;
-        margin: -18px;
-        left: -169px;
-        display: none;
-      }
-
-      .left{
-        position: relative;
-        left: -93px;
-      }
-      nav{
-        position: relative;
-        width: 600px;
-      }
-
-      .project_1{
-        position: relative;
-        left: 39px;
-      }
-
-      .click_here{
-        position: relative;
-        top: -13px;  
-
-      }
-      .click_here a{
-        text-decoration: none;
-        color: black;
-
-      }
-      .feature {
-        position: relative;
-        left: 3px;
-        margin: -20px;
-        display: none;
-    }
-
-    button.click_here {
-        position: relative;
-        top: -26px;
-}
 
 }
