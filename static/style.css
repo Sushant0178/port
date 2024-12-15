@@ -230,12 +230,12 @@ main {
 }
 
 .rightsection img {
-  max-width: 300px;
-  width: 100%;
-  /* border: 3px solid #6c63ff; */
-  border-radius: 10px;
-  position: relative;
-  top: 7px;
+    max-width: 300px;
+    width: 100%;
+    /* border: 3px solid #6c63ff; */
+    border-radius: 10px;
+    position: relative;
+    top: 7px;
 }
 
 /* Projects Section */

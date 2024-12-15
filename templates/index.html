@@ -80,10 +80,14 @@
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-            strings: ['<i> I am a web developer ', ' Data analyst.'],
-            typeSpeed: 50,
-        });
+        
+            var typed = new Typed('#element', {
+                strings: ['<i> I am a web developer ',],
+                typeSpeed: 50,
+                 // Add this line to loop forever
+            });
+          
+          
 
         function showSidebar() {
             const sidebar = document.querySelector('.sidebar');
