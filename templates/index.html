@@ -9,12 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
 </head>
 <body>
-     <header>
+    <header>
         <nav>
-
             <div class="left"><a href="/"><strong>PORTFOLIO</strong></a></div>
             <div class="right">
                 <ul>
@@ -26,65 +24,50 @@
                 </ul>
             </div>
         </nav>
-     </header>
-     <main>
-        <section class = "frist">
-            <div class="leftsection" style="font-style: italic;" italic;="">
+    </header>
+    <main>
+        <section class="frist">
+            <div class="leftsection" style="font-style: italic;">
                 hii my name is <span class="purple">sushant</span> and
-                {% comment %} <div> i am a web developer</div> {% endcomment %}
                 <span id="element"></span>
-
             </div>
             <div class="rightsection">
-
-                <img src={% static "transparnt.png" %} alt="">
+                <img src="{% static 'transparnt.png' %}" alt="">
             </div>
-
         </section>
         <hr>
         <section class="second">
-            <h1>Work experience</h1>
-            <div class="project_1"><strong>unsed medicine donation sysytem :</strong>
-                <br>
-                <br>
+            <h1>Projects:</h1>
+            <div class="project_1">
+                <strong>Unused Medicine Donation System:</strong>
+                <br><br>
                 <p><strong>Overview:</strong>
                     The Unused Medicine Donation System is an innovative platform designed to collect unused medicines from individuals and distribute them to those in need. Built using Python, Django, SQLite, HTML, CSS, and JavaScript, this system bridges the gap between surplus medicine and underprivileged communities, reducing medical waste and promoting social welfare.
                     <br><br>
-                    
                     <div class="feature">
                         <ul>
-                        <li><strong>User-Friendly Interface:</strong> Individuals can easily list and donate unused medicines.</li>
-                        <br>
-                        <li><strong>Efficient Tracking:</strong> Tracks donated medicines and ensures they reach verified beneficiaries.</li>
-                        <br>
-                        <li><strong>Authentication System:</strong> Secure login for donors and administrators to manage donations.</li>
-                        <br>
-                        <li><strong>Database Integration: </strong>Powered by SQLite for efficient data storage and retrieval.</li>
-                        <br>
-                        <li><strong>Responsive Design:</strong> Built with HTML, CSS, and JavaScript for seamless usage on all devices.</li>
+                            <li><strong>User-Friendly Interface:</strong> Individuals can easily list and donate unused medicines.</li>
+                            <li><strong>Efficient Tracking:</strong> Tracks donated medicines and ensures they reach verified beneficiaries.</li>
+                            <li><strong>Authentication System:</strong> Secure login for donors and administrators to manage donations.</li>
+                            <li><strong>Database Integration:</strong> Powered by SQLite for efficient data storage and retrieval.</li>
+                            <li><strong>Responsive Design:</strong>   Built with HTML, CSS, and JavaScript for seamless usage on all devices.</li>
                         </ul>
-                        </div>
+                    </div>
                 </p>
-                    <br>
-                    <button class="click_here"> <a href="https://medisharenow.vercel.app/">click here to see live work</a></button>
-            
-            
+                <br>
+                <button class="click_here">
+                    <a href="https://medisharenow.vercel.app/">Click here to see live work</a>
+                </button>
             </div>
-
-
-
-            </div>
-
         </section>
-     </main>
-     
-     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-     <script>
-        var typed = new Typed('#element', {
-          strings: ['<i> i am web developer ', ' data analyst.'],
-          typeSpeed: 50,
-        });
-      </script>
-    </body>
-</html>
+    </main>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i> I am a web developer ', ' Data analyst.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
