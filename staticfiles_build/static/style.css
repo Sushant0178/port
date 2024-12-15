@@ -11,12 +11,15 @@ body {
 }
 
 nav{
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
     background-color: rgb(18 15 59 / 48%);
+    left: 0.16px;
 }
+
 
 nav ul{
     display:flex;
@@ -118,20 +121,8 @@ nav ul li a:hover {
     color: rgba(14, 12, 47, 0.48);
 }
 
-.second .box{
-    background: white;
-    width: 80vw;
-    height: 2px;
-    margin: 56px;
-    display: flex;
-}
 
-.second .vertical{
-    height: 93px;
-    width: 1px;
-    background-color: white;
-    margin: 0 100px;
-}
+
 
 .image-top{
     position: relative;
@@ -146,6 +137,58 @@ nav ul li a:hover {
     top: -40px;
     left: 71px;
 }
+
+.project_1{
+    position: relative;
+    top: 21px;
+    left: 88px;
+    font-size: 1.5rem;
+}
+
+.click_here{
+    background-color: rgb(18 15 59 / 48%);
+    color: #050404;
+    padding: 8px 24px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.click_here a{
+    text-decoration: none;
+    color: black;
+    
+  }
+
+  .project_1 p{
+    text-align: justify;
+    
+  }
+
+  
+  .project_1 li{
+    
+    position: relative;
+    top: 21px;
+    left: -21px;
+    font-size: 1.5rem;
+  }
+
+  .feature{
+    position: relative;
+    left: 44px;
+    background-color: rgb(18 15 59 / 48%);
+    margin: -12px;
+    background-color: rgba(53, 49, 113, 0.48);
+    color: #050404;
+    padding: 27px 24px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: inherit;
+  }
+
 
 
 @media only screen and (max-width: 480px){
@@ -212,5 +255,32 @@ nav ul li a:hover {
         position: relative;
         width: 600px;
       }
+
+      .project_1{
+        position: relative;
+        left: 39px;
+      }
+
+      .click_here{
+        position: relative;
+        top: -13px;  
+
+      }
+      .click_here a{
+        text-decoration: none;
+        color: black;
+
+      }
+      .feature {
+        position: relative;
+        left: 3px;
+        margin: -20px;
+        display: none;
+    }
+
+    button.click_here {
+        position: relative;
+        top: -82px;
+}
 
 }
