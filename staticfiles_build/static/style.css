@@ -192,6 +192,8 @@ nav ul li a:hover {
         margin: 41px 84px;
         position: relative;
         top: -228px;
+        display: none;
+
       }
 
       nav ul {
