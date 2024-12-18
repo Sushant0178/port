@@ -32,6 +32,14 @@ button {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+button.logo {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
 svg {
   display: none;
 }
@@ -103,18 +111,17 @@ nav .right ul {
   color: black;
 
 }
+
 img.insta_img {
-  width: 50px;
-  height: 33px;
+  width: 45px;
+  height: 36px;
   border-radius: 50%;
   /* background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4c68d7); */
   position: relative;
-  display: flex
-;
+  display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  
 }
 
 /* Style for each list item */
@@ -241,7 +248,7 @@ main {
   align-items: center;
   margin-top: 40px;
   gap: 40px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .leftsection {
@@ -265,11 +272,15 @@ main {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
   /* Black shadow */
 }
+
 .info {
   position: relative;
   left: -821px;
   top: 71px;
+  gap: 20px;
+  display: flex;
 }
+
 /* Projects Section */
 .second h1 {
   font-size: 2rem;
@@ -465,4 +476,27 @@ button.click_here:hover {
   .projects-container::-webkit-scrollbar {
     display: none;
   }
+
+  button.logo {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    left: 774px;
+    top: -511px;
+  }
+  .info {
+    position: relative;
+    left: -774px;
+    top: 502px;
+    gap: 20px;
+    display: flex;
+
+}
+hr{
+  position: relative;
+  top: -74px;
+}
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sushant Portfolio</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -53,7 +54,11 @@
                 <img src="{% static 'transparnt.png' %}" alt="Profile photo">
             </div>
             <div class="info">
-                <button><a href="https://www.instagram.com/sushant__kokate/"><img src="{% static 'insta.png' %}" class = "insta_img"alt="insta logo"></a></button>
+                <button class ="logo"><a href="https://www.instagram.com/sushant__kokate/"><img src="{% static 'insta.png' %}" class = "insta_img"alt="insta logo"></a></button>
+                {% comment %} <button class ="logo"><a href=""><img src="{% static 'twitter.png' %}" class = "insta_img"alt="insta logo"></a></button> {% endcomment %}
+                <button class ="logo"><a href="https://github.com/Sushant0178"><img src="{% static 'github.png' %}" class = "insta_img"alt="insta logo"></a></button>
+                <button class ="logo"><a href="https://www.linkedin.com/in/sushant-kokate-1a5a40285/"><img src="{% static 'linkedin.png' %}" class = "insta_img"alt="insta logo"></a></button>
+            </div>
             </div>
         </section>
         <hr>
@@ -130,7 +135,10 @@
             strings: ['<i> I am a web developer '],
             typeSpeed: 50,
         });
+    </script>
 
+
+    <script>
         function showSidebar() {
             const sidebar = document.querySelector('.sidebar');
             sidebar.classList.toggle('active');
@@ -140,6 +148,7 @@
             sidebar.classList.toggle('none');
         }
     </script>
+    
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
