@@ -103,6 +103,19 @@ nav .right ul {
   color: black;
 
 }
+img.insta_img {
+  width: 50px;
+  height: 33px;
+  border-radius: 50%;
+  /* background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4c68d7); */
+  position: relative;
+  display: flex
+;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
 
 /* Style for each list item */
 nav .right li {
