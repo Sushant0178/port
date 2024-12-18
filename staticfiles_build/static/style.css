@@ -19,6 +19,19 @@ body {
 
 }
 
+button {
+  margin-top: 15px;
+  background-color: #6c63ff;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
 svg {
   display: none;
 }
@@ -239,7 +252,11 @@ main {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
   /* Black shadow */
 }
-
+.info {
+  position: relative;
+  left: -821px;
+  top: 71px;
+}
 /* Projects Section */
 .second h1 {
   font-size: 2rem;

@@ -1,0 +1,1 @@
+('D:\\projects django\\portfolio\\port\\build\\text_to_speech\\PYZ-00.pyz', [])

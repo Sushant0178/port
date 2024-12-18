@@ -1,6 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+import os
 
+from portfolio import settings
 
 
 def home(request):
@@ -17,3 +19,6 @@ def contact(request):
 
 def audio(request):
     return render(request, '#')
+
+
+
