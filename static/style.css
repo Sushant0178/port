@@ -40,6 +40,22 @@ button.logo {
   cursor: pointer;
 }
 
+li.list {
+  text-transform: capitalize;
+  font-weight: 500;
+  transition: color 0.3s ease, left 0.3s ease;
+  color: #ffffff;
+  position: relative;
+  left: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding: 8px 0;
+  text-align: center;
+  position: relative;
+  left: 400px;
+}
+
 svg {
   display: none;
 }
@@ -71,21 +87,51 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #6c63ff;
-  box-shadow: 10px 8px 7px rgba(0, 0, 0, 0.1);
+  background-color: transparent ;/* Fully transparent background */
+  box-shadow: none; /* No shadow */
   align-items: center;
+  border: none; /* Ensures no borders appear */
+  position: sticky; /* Keeps the navbar at the top (optional) */
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background-color 0.3s, padding 0.3s;
+  z-index: 1000;
 }
 
-/* Navbar container */
-nav {
-  display: flex;
-  justify-content: space-between;
-  /* Ensure space between left and right sections */
-  align-items: center;
-  /* Vertically center the items */
-  padding: 10px 20px;
-  /* Add padding for better spacing */
+/* Transparent Navbar Before Scroll */
+.navbar.navbar-scroll {
+  background-color: transparent;
+  padding: 15px 20px;
 }
+
+.navbar-scroll .nav-link {
+  color: #fff;
+}
+
+/* Solid Navbar After Scroll */
+.navbar-scrolled {
+  background-color: #6352ce;
+  padding: 5px 20px;
+}
+
+.navbar-scrolled .nav-link {
+  color: #4f4f4f;
+}
+
+.navbar-scrolled .sidebar-button svg {
+  fill: #4f4f4f;
+}
+
+.navbar-scrolled .logo svg {
+  fill: #4f4f4f;
+}
+
+
 
 /* The right section of the navbar */
 nav .right {
@@ -114,7 +160,7 @@ nav .right ul {
 
 img.insta_img {
   width: 45px;
-  height: 36px;
+  height: 45px;
   border-radius: 50%;
   /* background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4c68d7); */
   position: relative;
@@ -390,6 +436,7 @@ button.click_here:hover {
 
   }
 
+
   .frist {
     flex-direction: column;
     text-align: center;
@@ -420,6 +467,10 @@ button.click_here:hover {
     position: relative;
     top: -17px;
   }
+  .navbar-scrolled {
+    background-color: #6352ce;
+    padding: 21px 20px;
+}
 
   .sidebar li {
     width: 100%;
@@ -497,6 +548,11 @@ button.click_here:hover {
 }
 hr{
   position: relative;
-  top: -74px;
+  top: -85px;
+}
+.navbar-scrolled .sidebar-button svg {
+  fill: #150e0e;
+  position: relative;
+  left: 168px;
 }
 }

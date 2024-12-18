@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar navbar-scroll">
             <div class="left"><a href="/"><strong>PORTFOLIO</strong></a></div>
             <ul class="sidebar">
                 <li class="sv_1"><a href="javascript:void(0)" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
@@ -153,5 +153,27 @@
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('active');
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('none');
+        }
+
+        // Navbar Scroll Effect
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('navbar-scrolled');
+                navbar.classList.remove('navbar-scroll');
+            } else {
+                navbar.classList.add('navbar-scroll');
+                navbar.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
 </body>
 </html>
