@@ -432,9 +432,9 @@ button.click_here:hover {
 
 /* Footer Area Styles */
 .footer-area {
-  background-color: #0b0c10; /* Dark background for contrast */
-  color: #c5c6c7; /* Light text for readability */
-  padding: 60px 0; /* Spacing around the footer */
+  background-color: #2a44ad40;
+  color: #c5c6c7;
+  padding: 60px 0;
   font-family: "Roboto", sans-serif;
 }
 
