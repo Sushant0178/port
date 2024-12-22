@@ -624,6 +624,7 @@ button.click_here:hover {
   .resume-item {
     padding: 15px;
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .resume-item h3 {
