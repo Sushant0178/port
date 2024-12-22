@@ -525,6 +525,10 @@ button.click_here:hover {
   /* background-image: url(background.jpg); */
 }
 
+.resume-item:hover {
+  transform: scale(1.05);
+}
+
 .resume-item h3 {
   font-size: 1.5em;
   font-weight: 600;
