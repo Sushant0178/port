@@ -18,6 +18,15 @@ body {
 
 
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6352ce;
+    color: white;
+    text-align: center;
+}
 
 button {
   margin-top: 15px;
@@ -87,14 +96,19 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: transparent ;/* Fully transparent background */
-  box-shadow: none; /* No shadow */
+  background-color: transparent;
+  /* Fully transparent background */
+  box-shadow: none;
+  /* No shadow */
   align-items: center;
-  border: none; /* Ensures no borders appear */
-  position: sticky; /* Keeps the navbar at the top (optional) */
+  border: none;
+  /* Ensures no borders appear */
+  position: sticky;
+  /* Keeps the navbar at the top (optional) */
   top: 0;
   z-index: 10;
 }
+
 .navbar {
   position: fixed;
   top: 0;
@@ -467,10 +481,11 @@ button.click_here:hover {
     position: relative;
     top: -17px;
   }
+
   .navbar-scrolled {
     background-color: #6352ce;
     padding: 21px 20px;
-}
+  }
 
   .sidebar li {
     width: 100%;
@@ -538,6 +553,7 @@ button.click_here:hover {
     left: 774px;
     top: -511px;
   }
+
   .info {
     position: relative;
     left: -774px;
@@ -545,14 +561,18 @@ button.click_here:hover {
     gap: 20px;
     display: flex;
 
-}
-hr{
-  position: relative;
-  top: -85px;
-}
-.navbar-scrolled .sidebar-button svg {
-  fill: #150e0e;
-  position: relative;
-  left: 168px;
-}
+  }
+
+  hr {
+    position: relative;
+    top: -85px;
+  }
+
+  .navbar-scrolled .sidebar-button svg {
+    fill: #150e0e;
+    position: relative;
+    left: 168px;
+  }
+
+
 }
