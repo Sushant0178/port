@@ -28,6 +28,19 @@ footer {
   font-family: "Roboto", sans-serif;
 }
 
+p.about_me{
+  text-align: center;
+}
+
+h4.footer_title.large_title {
+  text-align: center;
+  position: relative;
+  top: -15px;
+}
+ul.list {
+  text-align: center;
+  /* justify-content: center; */
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
