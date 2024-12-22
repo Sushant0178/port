@@ -365,16 +365,15 @@ main {
 /* Style each project box */
 .project-box {
   flex: 0 0 300px;
-  background-color: #f4f4f4;
+  background-color: #f4f4f40a;
   border: 1px solid #474cd1;
   border-radius: 50px;
   padding: 20px;
   flex: 1 1 calc(30% - 20px);
-  /* Adjust width dynamically */
   scroll-snap-align: start;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  background-image: url(background.jpg);
+  /* background-image: url(background.jpg); */
 
 }
 
@@ -737,15 +736,14 @@ button.click_here:hover {
   /* Style each project box */
   .project-box {
     flex: 0 0 300px;
-    background-color: #f4f4f4;
+    background-color: #f4f4f405;
     border: 1px solid #474cd1;
     border-radius: 50px;
     padding: 20px;
-    /* Adjust width dynamically */
     scroll-snap-align: start;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    background-image: url(background.jpg);
+    /* background-image: url(background.jpg); */
 
   }
 
