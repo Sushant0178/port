@@ -515,7 +515,7 @@ button.click_here:hover {
 
 .resume-item {
   flex: 0 0 300px;
-  background-color: #f4f4f4;
+  background-color: #f4f4f400;
   border: 1px solid #474cd1;
   border-radius: 50px;
   padding: 20px;
@@ -523,7 +523,7 @@ button.click_here:hover {
   scroll-snap-align: start;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  background-image: url(background.jpg);
+  /* background-image: url(background.jpg); */
 }
 
 .resume-item h3 {
@@ -606,6 +606,7 @@ button.click_here:hover {
     justify-content: space-between;
     padding: 20px 50px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #25177c12;
   }
 
   .resume-item h3 {
@@ -615,7 +616,7 @@ button.click_here:hover {
 
   .resume-item p {
     font-size: 1.1em;
-    color: #666;
+    color: white;
     max-width: 70%;
   }
 }
