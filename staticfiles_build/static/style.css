@@ -28,61 +28,6 @@ footer {
   font-family: "Roboto", sans-serif;
 }
 
-.footer-area .footer_title {
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.footer-area p {
-  font-size: 15px;
-  line-height: 25px;
-  color: white;
-  margin-bottom: 15px;
-  text-align: center;
-
-}
-
-.footer-area ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-area ul li {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.footer-area ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  transition: color 0.3s ease;
-}
-
-.footer-area ul li a:hover {
-  color: #333333;
-}
-
-/* Contact Section Styling */
-.tp_widgets .sm-head {
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  margin-top: 15px;
-}
-
-.tp_widgets .sm-head span {
-  margin-right: 10px;
-  color: #ff5e00;
-}
-
-.tp_widgets .ml-40 {
-  margin-left: 0;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
