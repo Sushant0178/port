@@ -514,7 +514,7 @@ button.click_here:hover {
 
 .resume-item {
   flex: 0 0 300px;
-  background-color: #f4f4f400;
+  background-color: #f4f4f40a;
   border: 1px solid #474cd1;
   border-radius: 50px;
   padding: 20px;
@@ -589,17 +589,18 @@ button.click_here:hover {
 .contact-form {
   text-align: center;
   padding: 50px 20px;
-  background-color: #f9f9f9; /* Light background for contrast */
+  background-color: #f9f9f90d;
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
   max-width: 600px;
+  color: white;
 }
 
 .contact-form h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #333;
+  color: white;
 }
 
 .contact-form form {
@@ -632,19 +633,25 @@ button.click_here:hover {
 }
 
 .contact-form button.btn {
-  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #6c63ff;
   border: none;
-  background-color: #007bff;
+  padding: 10px 20px;
   color: white;
   font-size: 1rem;
-  font-weight: bold;
-  border-radius: 5px;
+  border-radius: 34px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form button.btn:hover {
   background-color: #0056b3;
+}
+
+hr.hr_1 {
+  position: relative;
+  top: 1186px;
 }
 
 
@@ -855,6 +862,11 @@ button.click_here:hover {
     position: relative;
     top: -85px;
   }
+
+  hr.hr_1 {
+    position: relative;
+    top: 1542px;
+}
 
   .navbar-scrolled .sidebar-button svg {
     fill: #150e0e;
