@@ -454,7 +454,7 @@ button.click_here:hover {
   margin-bottom: 2px;
   justify-content: stretch;
   text-align: center;
-
+}
 .footer-area .footer-links {
   list-style: none;
   padding: 0;
@@ -880,4 +880,4 @@ hr.hr_1 {
     left: 168px;
   }
 
-
+}
