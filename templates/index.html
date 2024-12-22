@@ -53,7 +53,12 @@
             <div class="rightsection">
                 <img src="{% static 'transparnt.png' %}" alt="Profile photo">
             </div>
-            
+            <div class="info">
+                <button class ="logo"><a href="https://www.instagram.com/sushant__kokate/"><img src="{% static 'insta.png' %}" class = "insta_img"alt="insta logo"></a></button>
+                {% comment %} <button class ="logo"><a href=""><img src="{% static 'twitter.png' %}" class = "insta_img"alt="insta logo"></a></button> {% endcomment %}
+                <button class ="logo"><a href="https://github.com/Sushant0178"><img src="{% static 'github.png' %}" class = "insta_img"alt="insta logo"></a></button>
+                <button class ="logo"><a href="https://www.linkedin.com/in/sushant-kokate-1a5a40285/"><img src="{% static 'linkedin.png' %}" class = "insta_img"alt="insta logo"></a></button>
+            </div>
             </div>
         </section>
         <hr>
@@ -170,12 +175,62 @@
             }
         });
     </script>
-    <footer>
-        <div class="info">
-            <button class ="logo"><a href="https://www.instagram.com/sushant__kokate/"><img src="{% static 'insta.png' %}" class = "insta_img"alt="insta logo"></a></button>
-            {% comment %} <button class ="logo"><a href=""><img src="{% static 'twitter.png' %}" class = "insta_img"alt="insta logo"></a></button> {% endcomment %}
-            <button class ="logo"><a href="https://github.com/Sushant0178"><img src="{% static 'github.png' %}" class = "insta_img"alt="insta logo"></a></button>
-            <button class ="logo"><a href="https://www.linkedin.com/in/sushant-kokate-1a5a40285/"><img src="{% static 'linkedin.png' %}" class = "insta_img"alt="insta logo"></a></button>
+    <footer style="
+    line-height: 25px;
+    font-size: 15px;
+    font-family: &quot;Roboto&quot;, sans-serif;
+    font-weight: normal;
+    color: #777777;
+">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row section_gap">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h4 class="footer_title large_title">Our Mission</h4>
+                            <p>
+                                This application acts as a bridge between Donors and NGOs,
+                                 it helps the donor to donate unused medicines to NGOs and 
+                                 further, these medicines are utilized by a needy person. 
+                                 At this platform, NGOs can easily find their required donor 
+                                 in just a few clicks.
+                                 They can easily contact each other.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <ul class="list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About</a></li>
+                               <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h4 class="footer_title">Contact Us</h4>
+                            <div class="ml-40">
+                                <p class="sm-head">
+                                    <span class="fa fa-location-arrow"></span> India
+                                </p>
+                                <p>Pune</p>
+    
+                                <p class="sm-head">
+                                    <span class="fa fa-phone"></span> Phone Number
+                                </p>
+                                <p>+91 9763280178</p>
+    
+                                <p class="sm-head">
+                                    <span class="fa fa-envelope"></span> Email
+                                </p>
+                                <p>sushantkokate0178@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
