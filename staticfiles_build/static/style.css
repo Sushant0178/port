@@ -449,14 +449,18 @@ button.click_here:hover {
 
 .footer-area .single-footer-widget p {
   line-height: 1.8;
-  font-size: 15px;
-  color: #c5c6c7; /* Subtle text color */
-  margin-bottom: 20px;
-}
+  font-size: 16px;
+  color: #c5c6c7;
+  margin-bottom: 2px;
+  justify-content: stretch;
+  text-align: center;
 
 .footer-area .footer-links {
   list-style: none;
   padding: 0;
+}
+.single-footer-widget {
+  text-align: center;
 }
 
 .footer-area .footer-links li {
@@ -598,9 +602,11 @@ button.click_here:hover {
 }
 
 .contact-form h2 {
-  font-size: 2rem;
+  font-size: 22px;
+  font-weight: bold;
+  color: #66fcf1;
   margin-bottom: 20px;
-  color: white;
+  text-transform: uppercase;
 }
 
 .contact-form form {
