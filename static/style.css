@@ -494,6 +494,83 @@ button.click_here:hover {
   padding-top: 15px;
 }
 
+/* Resume Breakdown Section */
+#resume-breakdown {
+  background-color: #f4f7f6;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+}
+
+#resume-breakdown h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.resume-item {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resume-item h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.resume-item p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  #resume-breakdown {
+    padding: 60px 40px;
+  }
+
+  .resume-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .resume-item h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+  }
+
+  .resume-item p {
+    font-size: 1.1em;
+    color: #666;
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .resume-item {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .resume-item h3 {
+    font-size: 1.4em;
+  }
+
+  .resume-item p {
+    font-size: 1em;
+  }
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .footer-area .footer_title {
