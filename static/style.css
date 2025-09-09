@@ -442,7 +442,8 @@ button.click_here:hover {
 .footer-area .footer_title {
   font-size: 22px;
   font-weight: bold;
-  color: #66fcf1; /* Accent color for headings */
+  color: #66fcf1;
+  /* Accent color for headings */
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -455,10 +456,12 @@ button.click_here:hover {
   justify-content: stretch;
   text-align: center;
 }
+
 .footer-area .footer-links {
   list-style: none;
   padding: 0;
 }
+
 .single-footer-widget {
   text-align: center;
 }
@@ -475,7 +478,8 @@ button.click_here:hover {
 }
 
 .footer-area .footer-links li a:hover {
-  color: #66fcf1; /* Hover effect for links */
+  color: #66fcf1;
+  /* Hover effect for links */
 }
 
 .footer-area .contact-details span {
@@ -487,7 +491,8 @@ button.click_here:hover {
 
 .footer-area .contact-details i {
   margin-right: 8px;
-  color: #66fcf1; /* Icon accent color */
+  color: #66fcf1;
+  /* Icon accent color */
 }
 
 .footer-area .copyright {
@@ -725,16 +730,19 @@ hr.hr_1 {
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .footer-area .footer_title {
-      font-size: 18px;
+    font-size: 18px;
   }
+
   .footer-area .single-footer-widget {
-      margin-bottom: 30px;
+    margin-bottom: 30px;
   }
+
   .footer-area .contact-details span {
-      font-size: 14px;
+    font-size: 14px;
   }
+
   .footer-area .copyright {
-      font-size: 12px;
+    font-size: 12px;
   }
 }
 
@@ -872,12 +880,14 @@ hr.hr_1 {
   hr.hr_1 {
     position: relative;
     top: 1542px;
-}
+  }
 
   .navbar-scrolled .sidebar-button svg {
     fill: #150e0e;
     position: relative;
     left: 168px;
   }
+
+  /*_____________________css code log in page__________________*/
 
 }
