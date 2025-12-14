@@ -319,3 +319,33 @@ body {
     justify-content: center;
   }
 }
+/* ================= ANIMATED BACKGROUND ================= */
+
+ body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -45deg,
+    #0e0e0e,
+    #121212,
+    #171731,
+    #0e0e0e
+  );
+  background-size: 400% 400%;
+  animation: gradientMove 8s ease infinite;
+}
+
+/* Animation */
+ @keyframes gradientMove {
+  0% {
+    background-position: 0% 20%50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} 
